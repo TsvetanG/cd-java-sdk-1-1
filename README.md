@@ -4,6 +4,7 @@ Java SDK based client for Fabric 1.1
 
 -- Private collection json file is located in store folder (collections-cli.json). It defines two private collections. This file should be used to instantiate or/and upgrade the chancode. The file should be copied to the CLI host machine so it may be accessed by the CLI docker container.
 
+-- To install, invoke and query use the Java classes related to the node js chaincode (they are named accordingly)
 
 -- The following commands in CLI will instantaite / upgrade the chaincode. Note the JAVA SDK at the moment doesn't have APIs to add a private data collection definition hence the process is done from CLI.
 
