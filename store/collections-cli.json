@@ -1,0 +1,13 @@
+[{
+    "name": "collectionMarbles",
+    "policy": "OR('maple.member', 'fundinc.member')",
+    "requiredPeerCount": 1,
+    "maxPeerCount": 2
+  },
+  {
+    "name": "collectionMarblePrivateDetails",
+    "policy": "OR('maple.member')",
+    "requiredPeerCount": 1,
+    "maxPeerCount": 1
+  }
+]
